@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="flat-ui.css">
+<link rel="stylesheet" type="text/css" href="uistyle.css">
+
+
+
+<!--[if lt IE 9]>
+
+<link rel="stylesheet" type="text/css" href="ie8-and-down.css" />
+
+<script>
+
+  WebFontConfig = {
+  custom: {
+    families: ['Open Sans Light', 'Open Sans Regular', 'Open Sans Semi Bold'],
+    urls: ['uplandstyleIE.css']
+  }
+};
+
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+
+
+<![endif]-->
+
+<!--[if IE 9]>	
+	<link href='uplandstyle.css' rel='stylesheet' type='text/css'>
+<![endif]-->
+
+
+<!--[if !IE]><!-->
+	<link href='uplandstyle.css' rel='stylesheet' type='text/css'>
+<!--<![endif]-->
+
+
+</head>
+
+<body>
+
+<div class="header-container">
+	<div class="header-left">
+		<div class="logo-container">
+			<img src="epmlivelogo1.png"/>
+		</div>
+		<div class="header-title">Site Title - Page Title</div>
+	</div>
+	<div class="header-right">
+		<ul id="links-list-right">
+			<li><input type="text" style="display:none;" id="search-input" placeholder="Search..."></input></li>
+			<li><a id="search-toggle" href="#"><span class="fui-search icon-right" id="search-icon"></span></a></li>
+			<li><a href="#"><span class="fui-question icon-right"></span></a></li>
+			<li style="padding-top:4px;"><img src="https://dl.dropboxusercontent.com/u/47201778/emptyprofile.png" id="profile-image"></li>
+			<li><div class="profile-name">Jeremy Boatman</div></li>
+		</ul>
+	</div>
+</div>
+<div id="navigation-wrapper">
+	<div id="nav1">
+		<ul>
+			<li class="selected notch">
+				<span id="nav1-menu" class="fui-list nav1-node" title="Menu"></span>
+			</li>
+			<li>
+				<span id="nav1-add" class="fui-plus nav1-node" title="Add New"></span>
+			</li>
+			<li class="nav1-separator"></li>
+			<li>
+				<span id="nav1-favorites" class="fui-star-2 nav1-node" title="Favorites"></span>
+			</li>
+			<li>
+				<span id="nav1-history" class="fui-time nav1-node" title="Recent Items"></span>
+			</li>
+		</ul>
+		<ul class="bottom">
+			<li>
+				<span id="nav1-settings" class="fui-gear nav1-node" title="Settings"></span>
+			</li>
+		</ul>
+	</div>
+	<div id="nav2">
+		<span id="nav2-pin" class="fui-ext-pin nav2-unpinned"></span>
+		<div class="nav2-sub" id="nav2-menu" style="display:block;">
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Projects</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+		</div>
+		<div class="nav2-sub" style="display:none" id="nav2-add"></div>
+		<div class="nav2-sub" style="display:none" id="nav2-favorites"></div>
+		<div class="nav2-sub" style="display:none" id="nav2-history"></div>
+		<div class="nav2-sub" style="display:none" id="nav2-settings"></div>
+	</div>
+</div>
+
+
+
+<script src="./navui.js"></script>
+
+</body>
+</html>
