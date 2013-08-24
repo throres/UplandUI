@@ -2,8 +2,12 @@
 <head>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="./bootstrap/js/bootstrap-tooltip.min.js" ></script>
+<script src="./jquery.slimscroll.min.js" ></script>
 <link rel="stylesheet" type="text/css" href="flat-ui.css">
 <link rel="stylesheet" type="text/css" href="uistyle.css">
+<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-tooltip.min.css">
+
 
 
 
@@ -53,7 +57,10 @@
 			<li><input type="text" style="display:none;" id="search-input" placeholder="Search..."></input></li>
 			<li><a id="search-toggle" href="#"><span class="fui-search icon-right" id="search-icon"></span></a></li>
 			<li><a href="#"><span class="fui-question icon-right"></span></a></li>
-			<li style="padding-top:4px;"><img src="https://dl.dropboxusercontent.com/u/47201778/emptyprofile.png" id="profile-image"></li>
+			<li style="padding-top:4px;">
+				<img src="https://dl.dropboxusercontent.com/u/47201778/emptyprofile.png" id="profile-image">
+				
+			</li>
 			<li><div class="profile-name">Jeremy Boatman</div></li>
 		</ul>
 	</div>
@@ -62,7 +69,7 @@
 	<div id="nav1">
 		<ul>
 			<li class="selected notch">
-				<span id="nav1-menu" class="fui-list nav1-node" title="Menu"></span>
+				<span id="nav1-menu" class="fui-list nav1-node" data-toggle="tooltip" title="Navigation Menu"></span>
 			</li>
 			<li>
 				<span id="nav1-add" class="fui-plus nav1-node" title="Add New"></span>
@@ -120,15 +127,333 @@
 					<a href="#">Contacts</a>
 				</li>
 			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Issues</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
 		</div>
 		<div class="nav2-sub" style="display:none" id="nav2-add"></div>
 		<div class="nav2-sub" style="display:none" id="nav2-favorites"></div>
 		<div class="nav2-sub" style="display:none" id="nav2-history"></div>
-		<div class="nav2-sub" style="display:none" id="nav2-settings"></div>
+		<div class="nav2-sub" style="display:none" id="nav2-settings">
+			<div class="title-container">
+				<span class="nav2-main-title">Settings</span>
+				<div class="separator-main">&nbsp;</div>
+			</div>
+			<ul class="nav2-links-list single">
+				<li class="nav2-node-single">
+					<a href="#">Title &amp; Description</a>
+				</li>
+				<li class="nav2-node-single">
+					<a href="#">Workspace Settings</a>
+				</li>
+			</ul>
+			<div class="separator">&nbsp;</div>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">General Configuration</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node nav2-link-selected">
+					<a href="#">Title &amp; Description</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Workspace Settings</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Services</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Tasks</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Tickets</a>
+				</li>
+			</ul>
+			<div class="nav2-node nav2-node-root nav2-category">
+				<span class="nav2-collapsed">&nbsp;</span>
+				<span class="nav2-category-title">Sales</span>
+			</div>
+			<ul class="nav2-links-list nav2-collapsed">
+				<li class="nav2-node">
+					<a href="#">Leads</a>
+				</li>
+				<li class="nav2-node">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </div>
+<div id="main-content">
+	<div>
+		<h1><a href="https://github.com/jboatman/UplandUI" target="_blank">GitHub Repository</a></h1>
+		<p>We'll use <a href="https://github.com/jboatman/UplandUI" target="_blank">this</a> GitHub respository for artifacts related to this project.</p>
+	</div>
+	<div>
+		<h1>Loading Icon</h1>
+		<p>This icon is free to use and not under any licensing restrictions.<br>
+			I have it here at a width of 32px and I think it looks good for standard page loading.
+		</p>
+		<img src="loading-icon.gif" style="width:32px;" />
+	</div>
 
-
+</div>
 
 <script src="./navui.js"></script>
 
