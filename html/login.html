@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="./bootstrap/js/bootstrap-tooltip.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="flat-ui.css">
+<link rel="stylesheet" type="text/css" href="login.css">
+<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-tooltip.min.css">
+
+
+<!--[if lt IE 9]>
+<html class="ie8">
+<![endif]-->
+
+<!--[if IE 9]>	
+<html class="ie9">
+<![endif]-->
+
+<script src="placeholder.js" ></script>
+
+</head>
+
+<body>
+<span class="callout left" id="failure-text"></span>
+<div id="login-main">
+	<div>
+		<img id="login-logo" src="EPMLiveByUpland.png">
+	</div>
+	<div id="login-content">
+		<div class="username-img input-img">
+			<span class="fui-ext-user"></span>
+		</div>
+		<input type="text" title="Username" placeholder="Username" class="username-input" autocomplete="off" id="Username" name="Username">
+		<br>
+		<div class="password-img input-img">
+			<span class="fui-lock"></span>
+		</div>
+		<input type="password" title="Password" placeholder="Password" class="password-input" autocomplete="off" id="Password" name="Password">
+		<input type="submit" class="login-button" id="Login" value="Sign In" name="Login">
+		<input type="checkbox" name="Auto" id="auto-signin">
+		<label for="">Sign me in automatically</label>
+	</div>
+	<div id="footer-content">
+		<div>
+			<span style="font-size:.8em;"><a href="resetpassword.aspx">Help!&nbsp;&nbsp;I forgot my username or password.</a></span>
+		</div>			
+		<div style="padding-top:13px;font-size:.7em;">
+			<span><a target="_blank" href="http://support.epmlive.com">Support</a></span>&nbsp;|&nbsp;<span><a data-uv-forum-id="161591" data-uv-link-color="#007dbf" data-uv-primary-color="#03488d" data-uv-mode="feedback" data-uv-lightbox="classic_widget" href="javascript:showAlert();" id="uv-1">Feedback</a></span>&nbsp;|&nbsp;<span><a target="_blank" href="http://epmlive.com/epm-live-service-agreement">Legal</a></span>&nbsp;|&nbsp;<span><a target="_blank" href="http://epmlive.com/privacy">Privacy</a></span>
+		</div>
+	</div>
+</div>
+
+
+<script src="./login.js" ></script>
+</body>
+</html>
