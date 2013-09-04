@@ -24,468 +24,486 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="fui-"] {
 */
-.fui-triangle-up, .fui-triangle-up-small, .fui-triangle-right-large, .fui-triangle-left-large, .fui-triangle-down, .fui-info, .fui-alert, .fui-question, .fui-window, .fui-windows, .fui-arrow-right, .fui-arrow-left, .fui-loop, .fui-cmd, .fui-mic, .fui-triangle-down-small, .fui-check-inverted, .fui-heart, .fui-location, .fui-plus, .fui-check, .fui-cross, .fui-list, .fui-new, .fui-video, .fui-photo, .fui-volume, .fui-time, .fui-eye, .fui-chat, .fui-home, .fui-upload, .fui-search, .fui-user, .fui-mail, .fui-lock, .fui-power, .fui-star, .fui-calendar, .fui-gear, .fui-book, .fui-exit, .fui-trash, .fui-folder, .fui-bubble, .fui-cross-inverted, .fui-plus-inverted, .fui-export, .fui-radio-unchecked, .fui-radio-checked, .fui-checkbox-unchecked, .fui-checkbox-checked, .fui-flat, .fui-calendar-solid, .fui-star-2, .fui-credit-card, .fui-clip, .fui-link, .fui-pause, .fui-play, .fui-tag, .fui-document, .fui-image, .fui-facebook, .fui-youtube, .fui-vimeo, .fui-twitter, .fui-stumbleupon, .fui-spotify, .fui-skype, .fui-pinterest, .fui-path, .fui-myspace, .fui-linkedin, .fui-googleplus, .fui-dribbble, .fui-blogger, .fui-behance, .fui-list-thumbnailed, .fui-list-small-thumbnails, .fui-list-numbered, .fui-list-large-thumbnails, .fui-list-columned, .fui-list-bulleted, .fui-ext-unlock, .fui-ext-light-arrow-down, .fui-ext-light-arrow-up, .fui-ext-folder-clock, .fui-ext-calendar-clock, .fui-ext-stopwatch, .fui-ext-checklist, .fui-ext-suitcase, .fui-ext-hands-shake, .fui-ext-alert-triangle, .fui-ext-circle-dollar, .fui-ext-pad-graph, .fui-ext-tools, .fui-ext-miniflag, .fui-ext-plus-circle, .fui-ext-double-arrow, .fui-ext-graph, .fui-ext-download1, .fui-ext-upload1, .fui-ext-circle-arrows, .fui-ext-pen, .fui-ext-edit-document, .fui-ext-profile-settings, .fui-ext-cw-gapped-circle, .fui-ext-plus-square, .fui-ext-minus-square, .fui-ext-megaphone, .fui-ext-exclamation, .fui-ext-pin, .fui-ext-download2, .fui-ext-quit, .fui-ext-calendar-settings, .fui-ext-circle-dollar-settings, .fui-ext-copy, .fui-ext-paste, .fui-ext-cut, .fui-ext-save, .fui-ext-folder-question-mark, .fui-ext-add-document, .fui-ext-add-profile, .fui-ext-alt-pad, .fui-ext-punch-out, .fui-ext-day-calendar-check, .fui-ext-day-calendar-cross, .fui-ext-save-and-add, .fui-ext-save-and-copy, .fui-ext-filter, .fui-ext-back-time, .fui-ext-batch, .fui-ext-billing-rules, .fui-ext-cost-rules, .fui-ext-documents, .fui-ext-user, .fui-ext-empty-profile-photo, .fui-ext-expense-report, .fui-ext-group, .fui-ext-important-link, .fui-ext-import-from-excel, .fui-ext-inbox, .fui-ext-people-resources, .fui-ext-project, .fui-ext-report, .fui-ext-review, .fui-ext-timesheet-template, .fui-ext-workspace, fui-ext-site, fui-ext-print {
-  display: inline-block;
-  font-family: 'Flat-UI-Icons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-}
-.fui-triangle-up:before {
-  content: "\e000";
-}
-.fui-triangle-up-small:before {
-  content: "\e001";
-}
-.fui-triangle-right-large:before {
-  content: "\e002";
-}
-.fui-triangle-left-large:before {
-  content: "\e003";
-}
-.fui-triangle-down:before {
-  content: "\e004";
-}
-.fui-info:before {
-  content: "\e016";
-}
-.fui-alert:before {
-  content: "\e017";
-}
-.fui-question:before {
-  content: "\e018";
-}
-.fui-window:before {
-  content: "\e019";
-}
-.fui-windows:before {
-  content: "\e01a";
-}
-.fui-arrow-right:before {
-  content: "\e02c";
-}
-.fui-arrow-left:before {
-  content: "\e02d";
-}
-.fui-loop:before {
-  content: "\e02e";
-}
-.fui-cmd:before {
-  content: "\e02f";
-}
-.fui-mic:before {
-  content: "\e030";
-}
-.fui-triangle-down-small:before {
-  content: "\e005";
-}
-.fui-check-inverted:before {
-  content: "\e006";
-}
-.fui-heart:before {
-  content: "\e007";
-}
-.fui-location:before {
-  content: "\e008";
-}
-.fui-plus:before {
-  content: "\e009";
-}
-.fui-check:before {
-  content: "\e00a";
-}
-.fui-cross:before {
-  content: "\e00b";
-}
-.fui-list:before {
-  content: "\e00c";
-}
-.fui-new:before {
-  content: "\e00d";
-}
-.fui-video:before {
-  content: "\e00e";
-}
-.fui-photo:before {
-  content: "\e00f";
-}
-.fui-volume:before {
-  content: "\e010";
-}
-.fui-time:before {
-  content: "\e011";
-}
-.fui-eye:before {
-  content: "\e012";
-}
-.fui-chat:before {
-  content: "\e013";
-}
-.fui-home:before {
-  content: "\e015";
-}
-.fui-upload:before {
-  content: "\e01b";
-}
-.fui-search:before {
-  content: "\e01c";
-}
-.fui-user:before {
-  content: "\e01d";
-}
-.fui-mail:before {
-  content: "\e01e";
-}
-.fui-lock:before {
-  content: "\e01f";
-}
-.fui-power:before {
-  content: "\e020";
-}
-.fui-star:before {
-  content: "\e021";
-}
-.fui-calendar:before {
-  content: "\e023";
-}
-.fui-gear:before {
-  content: "\e024";
-}
-.fui-book:before {
-  content: "\e025";
-}
-.fui-exit:before {
-  content: "\e026";
-}
-.fui-trash:before {
-  content: "\e027";
-}
-.fui-folder:before {
-  content: "\e028";
-}
-.fui-bubble:before {
-  content: "\e029";
-}
-.fui-cross-inverted:before {
-  content: "\e02a";
-}
-.fui-plus-inverted:before {
-  content: "\e031";
-}
-.fui-export:before {
-  content: "\e014";
-}
-.fui-radio-unchecked:before {
-  content: "\e02b";
-}
-.fui-radio-checked:before {
-  content: "\e032";
-}
-.fui-checkbox-unchecked:before {
-  content: "\e033";
-}
-.fui-checkbox-checked:before {
-  content: "\e034";
-}
-.fui-flat:before {
-  content: "\e035";
-}
-.fui-calendar-solid:before {
-  content: "\e022";
-}
-.fui-star-2:before {
-  content: "\e036";
-}
-.fui-credit-card:before {
-  content: "\e037";
-}
-.fui-clip:before {
-  content: "\e038";
-}
-.fui-link:before {
-  content: "\e039";
-}
-.fui-pause:before {
-  content: "\e03b";
-}
-.fui-play:before {
-  content: "\e03c";
-}
-.fui-tag:before {
-  content: "\e03d";
-}
-.fui-document:before {
-  content: "\e03e";
-}
-.fui-image:before {
-  content: "\e03a";
-}
-.fui-facebook:before {
-  content: "\e03f";
-}
-.fui-youtube:before {
-  content: "\e040";
-}
-.fui-vimeo:before {
-  content: "\e041";
-}
-.fui-twitter:before {
-  content: "\e042";
-}
-.fui-stumbleupon:before {
-  content: "\e043";
-}
-.fui-spotify:before {
-  content: "\e044";
-}
-.fui-skype:before {
-  content: "\e045";
-}
-.fui-pinterest:before {
-  content: "\e046";
-}
-.fui-path:before {
-  content: "\e047";
-}
-.fui-myspace:before {
-  content: "\e048";
-}
-.fui-linkedin:before {
-  content: "\e049";
-}
-.fui-googleplus:before {
-  content: "\e04a";
-}
-.fui-dribbble:before {
-  content: "\e04c";
-}
-.fui-blogger:before {
-  content: "\e04d";
-}
-.fui-behance:before {
-  content: "\e04e";
-}
-.fui-list-thumbnailed:before {
-  content: "\e04b";
-}
-.fui-list-small-thumbnails:before {
-  content: "\e04f";
-}
-.fui-list-numbered:before {
-  content: "\e050";
-}
-.fui-list-large-thumbnails:before {
-  content: "\e051";
-}
-.fui-list-columned:before {
-  content: "\e052";
-}
-.fui-list-bulleted:before {
-  content: "\e053";
-}
-.fui-ext-unlock:before {
-  content: "\e060";
-}
-.fui-ext-light-arrow-down:before {
-  content: "\e061";
-}
-.fui-ext-light-arrow-up:before {
-  content: "\e062";
-}
-.fui-ext-folder-clock:before {
-  content: "\e063";
-}
-.fui-ext-calendar-clock:before {
-  content: "\e064";
-}
-.fui-ext-stopwatch:before {
-  content: "\e065";
-}
-.fui-ext-checklist:before {
-  content: "\e066";
-}
-.fui-ext-suitcase:before {
-  content: "\e067";
-}
-.fui-ext-hands-shake:before {
-  content: "\e069";
-}
-.fui-ext-alert-triangle:before {
-  content: "\e06a";
-}
-.fui-ext-circle-dollar:before {
-  content: "\e068";
-}
-.fui-ext-pad-graph:before {
-  content: "\e06b";
-}
-.fui-ext-tools:before {
-  content: "\e06c";
-}
-.fui-ext-miniflag:before {
-  content: "\e06d";
-}
-.fui-ext-plus-circle:before {
-  content: "\e06e";
-}
-.fui-ext-double-arrow:before {
-  content: "\e06f";
-}
-.fui-ext-graph:before {
-  content: "\e070";
-}
-.fui-ext-download1:before {
-  content: "\e071";
-}
-.fui-ext-upload1:before {
-  content: "\e072";
-}
-.fui-ext-circle-arrows:before {
-  content: "\e073";
-}
-.fui-ext-pen:before {
-  content: "\e074";
-}
-.fui-ext-edit-document:before {
-  content: "\e075";
-}
-.fui-ext-profile-settings:before {
-  content: "\e076";
-}
-.fui-ext-cw-gapped-circle:before {
-  content: "\e077";
-}
-.fui-ext-plus-square:before {
-  content: "\e078";
-}
-.fui-ext-minus-square:before {
-  content: "\e079";
-}
-.fui-ext-megaphone:before {
-  content: "\e07a";
-}
-.fui-ext-exclamation:before {
-  content: "\e07b";
-}
-.fui-ext-pin:before {
-  content: "\e07c";
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+.fui-indexing-queue, .fui-locked-doc, .fui-ext-download2, .fui-ext-pin, .fui-ext-exclamation, .fui-ext-megaphone, .fui-ext-minus-square, .fui-ext-plus-square, .fui-ext-cw-gapped-circle, .fui-ext-profile-settings, .fui-ext-edit-document, .fui-ext-pen, .fui-ext-circle-arrows, .fui-ext-upload1, .fui-ext-download1, .fui-ext-graph, .fui-ext-double-arrow, .fui-ext-plus-circle, .fui-ext-miniflag, .fui-ext-tools, .fui-ext-pad-graph, .fui-ext-alert-triangle, .fui-ext-hands-shake, .fui-ext-circle-dollar, .fui-ext-suitcase, .fui-ext-checklist, .fui-ext-stopwatch, .fui-ext-calendar-clock, .fui-ext-folder-clock, .fui-ext-light-arrow-up, .fui-ext-light-arrow-down, .fui-ext-unlock, .fui-list-bulleted, .fui-list-columned, .fui-list-large-thumbnails, .fui-list-numbered, .fui-list-small-thumbnails, .fui-list-thumbnailed, .fui-document, .fui-tag, .fui-play, .fui-link, .fui-clip, .fui-pause, .fui-credit-card, .fui-flat, .fui-checkbox-checked, .fui-checkbox-unchecked, .fui-arrow-left, .fui-bubble, .fui-loop, .fui-arrow-right, .fui-lock, .fui-plus-inverted, .fui-mic, .fui-new, .fui-folder, .fui-cmd, .fui-radio-unchecked, .fui-cross-inverted, .fui-exit, .fui-book, .fui-gear, .fui-calendar, .fui-calendar-solid, .fui-power, .fui-search, .fui-star, .fui-user, .fui-window, .fui-alert, .fui-info, .fui-upload, .fui-question, .fui-export, .fui-chat, .fui-eye, .fui-home, .fui-time, .fui-volume, .fui-photo, .fui-video, .fui-list, .fui-cross, .fui-check, .fui-plus, .fui-location, .fui-heart, .fui-check-inverted, .fui-triangle-down, .fui-triangle-left-large, .fui-triangle-right-large, .fui-triangle-up, .fui-youtube, .fui-vimeo, .fui-twitter, .fui-stumbleupon, .fui-spotify, .fui-skype, .fui-pinterest, .fui-path, .fui-myspace, .fui-linkedin, .fui-googleplus, .fui-radio-checked, .fui-triangle-down-small, .fui-mail, .fui-image, .fui-windows, .fui-triangle-up-small, .fui-ext-quit, .fui-ext-circle-dollar-settings, .fui-ext-calendar-settings, .fui-ext-copy, .fui-ext-paste, .fui-ext-cut, .fui-ext-save, .fui-ext-punch-out, .fui-ext-alt-pad, .fui-ext-add-profile, .fui-ext-add-document, .fui-ext-folder-question-mark, .fui-ext-day-calendar-cross, .fui-ext-day-calendar-check, .fui-trash, .fui-ext-save-and-copy, .fui-ext-save-and-add, .fui-ext-filter, .fui-ext-back-time, .fui-star-2, .fui-behance, .fui-dribbble, .fui-blogger, .fui-ext-batch, .fui-ext-user, .fui-ext-important-links, .fui-ext-report, .fui-ext-people-resources, .fui-ext-review, .fui-ext-inbox, .fui-ext-group, .fui-ext-expense-report, .fui-ext-import-from-excel, .fui-ext-cost-rules, .fui-ext-billing-rules, .fui-ext-empty-profile, .fui-ext-project, .fui-ext-workspace, .fui-ext-document, .fui-ext-timesheet-template, .fui-ext-site, .fui-ext-print, .fui-back, .fui-facebook, .fui-file-tracking {
+	font-family: 'Flat-UI-Icons-Tenrox';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.fui-indexing-queue:before {
+	content: "\e001";
+}
+.fui-locked-doc:before {
+	content: "\e000";
 }
 .fui-ext-download2:before {
-  content: "\e07d";
+	content: "\e07d";
+}
+.fui-ext-pin:before {
+	content: "\e07c";
+}
+.fui-ext-exclamation:before {
+	content: "\e07b";
+}
+.fui-ext-megaphone:before {
+	content: "\e07a";
+}
+.fui-ext-minus-square:before {
+	content: "\e079";
+}
+.fui-ext-plus-square:before {
+	content: "\e078";
+}
+.fui-ext-cw-gapped-circle:before {
+	content: "\e077";
+}
+.fui-ext-profile-settings:before {
+	content: "\e076";
+}
+.fui-ext-edit-document:before {
+	content: "\e075";
+}
+.fui-ext-pen:before {
+	content: "\e074";
+}
+.fui-ext-circle-arrows:before {
+	content: "\e073";
+}
+.fui-ext-upload1:before {
+	content: "\e072";
+}
+.fui-ext-download1:before {
+	content: "\e071";
+}
+.fui-ext-graph:before {
+	content: "\e070";
+}
+.fui-ext-double-arrow:before {
+	content: "\e06f";
+}
+.fui-ext-plus-circle:before {
+	content: "\e06e";
+}
+.fui-ext-miniflag:before {
+	content: "\e06d";
+}
+.fui-ext-tools:before {
+	content: "\e06c";
+}
+.fui-ext-pad-graph:before {
+	content: "\e06b";
+}
+.fui-ext-alert-triangle:before {
+	content: "\e06a";
+}
+.fui-ext-hands-shake:before {
+	content: "\e069";
+}
+.fui-ext-circle-dollar:before {
+	content: "\e068";
+}
+.fui-ext-suitcase:before {
+	content: "\e067";
+}
+.fui-ext-checklist:before {
+	content: "\e066";
+}
+.fui-ext-stopwatch:before {
+	content: "\e065";
+}
+.fui-ext-calendar-clock:before {
+	content: "\e064";
+}
+.fui-ext-folder-clock:before {
+	content: "\e063";
+}
+.fui-ext-light-arrow-up:before {
+	content: "\e062";
+}
+.fui-ext-light-arrow-down:before {
+	content: "\e061";
+}
+.fui-ext-unlock:before {
+	content: "\e060";
+}
+.fui-list-bulleted:before {
+	content: "\e053";
+}
+.fui-list-columned:before {
+	content: "\e052";
+}
+.fui-list-large-thumbnails:before {
+	content: "\e051";
+}
+.fui-list-numbered:before {
+	content: "\e050";
+}
+.fui-list-small-thumbnails:before {
+	content: "\e04f";
+}
+.fui-list-thumbnailed:before {
+	content: "\e04b";
+}
+.fui-document:before {
+	content: "\e03e";
+}
+.fui-tag:before {
+	content: "\e03d";
+}
+.fui-play:before {
+	content: "\e03c";
+}
+.fui-link:before {
+	content: "\e039";
+}
+.fui-clip:before {
+	content: "\e038";
+}
+.fui-pause:before {
+	content: "\e03b";
+}
+.fui-credit-card:before {
+	content: "\e037";
+}
+.fui-flat:before {
+	content: "\e035";
+}
+.fui-checkbox-checked:before {
+	content: "\e034";
+}
+.fui-checkbox-unchecked:before {
+	content: "\e033";
+}
+.fui-arrow-left:before {
+	content: "\e02d";
+}
+.fui-bubble:before {
+	content: "\e029";
+}
+.fui-loop:before {
+	content: "\e02e";
+}
+.fui-arrow-right:before {
+	content: "\e02c";
+}
+.fui-lock:before {
+	content: "\e01f";
+}
+.fui-plus-inverted:before {
+	content: "\e031";
+}
+.fui-mic:before {
+	content: "\e030";
+}
+.fui-new:before {
+	content: "\e00d";
+}
+.fui-folder:before {
+	content: "\e028";
+}
+.fui-cmd:before {
+	content: "\e02f";
+}
+.fui-radio-unchecked:before {
+	content: "\e02b";
+}
+.fui-cross-inverted:before {
+	content: "\e02a";
+}
+.fui-exit:before {
+	content: "\e026";
+}
+.fui-book:before {
+	content: "\e025";
+}
+.fui-gear:before {
+	content: "\e024";
+}
+.fui-calendar:before {
+	content: "\e023";
+}
+.fui-calendar-solid:before {
+	content: "\e022";
+}
+.fui-power:before {
+	content: "\e020";
+}
+.fui-search:before {
+	content: "\e01c";
+}
+.fui-star:before {
+	content: "\e021";
+}
+.fui-user:before {
+	content: "\e01d";
+}
+.fui-window:before {
+	content: "\e019";
+}
+.fui-alert:before {
+	content: "\e017";
+}
+.fui-info:before {
+	content: "\e016";
+}
+.fui-upload:before {
+	content: "\e01b";
+}
+.fui-question:before {
+	content: "\e018";
+}
+.fui-export:before {
+	content: "\e014";
+}
+.fui-chat:before {
+	content: "\e013";
+}
+.fui-eye:before {
+	content: "\e012";
+}
+.fui-home:before {
+	content: "\e015";
+}
+.fui-time:before {
+	content: "\e011";
+}
+.fui-volume:before {
+	content: "\e010";
+}
+.fui-photo:before {
+	content: "\e00f";
+}
+.fui-video:before {
+	content: "\e00e";
+}
+.fui-list:before {
+	content: "\e00c";
+}
+.fui-cross:before {
+	content: "\e00b";
+}
+.fui-check:before {
+	content: "\e00a";
+}
+.fui-plus:before {
+	content: "\e009";
+}
+.fui-location:before {
+	content: "\e008";
+}
+.fui-heart:before {
+	content: "\e007";
+}
+.fui-check-inverted:before {
+	content: "\e006";
+}
+.fui-triangle-down:before {
+	content: "\e004";
+}
+.fui-triangle-left-large:before {
+	content: "\e003";
+}
+.fui-triangle-right-large:before {
+	content: "\e002";
+}
+.fui-triangle-up:before {
+	content: "\e005";
+}
+.fui-youtube:before {
+	content: "\e040";
+}
+.fui-vimeo:before {
+	content: "\e041";
+}
+.fui-twitter:before {
+	content: "\e042";
+}
+.fui-stumbleupon:before {
+	content: "\e043";
+}
+.fui-spotify:before {
+	content: "\e044";
+}
+.fui-skype:before {
+	content: "\e045";
+}
+.fui-pinterest:before {
+	content: "\e046";
+}
+.fui-path:before {
+	content: "\e047";
+}
+.fui-myspace:before {
+	content: "\e048";
+}
+.fui-linkedin:before {
+	content: "\e049";
+}
+.fui-googleplus:before {
+	content: "\e04a";
+}
+.fui-radio-checked:before {
+	content: "\e032";
+}
+.fui-triangle-down-small:before {
+	content: "\e01a";
+}
+.fui-mail:before {
+	content: "\e01e";
+}
+.fui-image:before {
+	content: "\e03a";
+}
+.fui-windows:before {
+	content: "\e027";
+}
+.fui-triangle-up-small:before {
+	content: "\e036";
 }
 .fui-ext-quit:before {
-  content: "\e07e";
-}
-.fui-ext-calendar-settings:before {
-  content: "\e07f";
+	content: "\e07e";
 }
 .fui-ext-circle-dollar-settings:before {
-  content: "\e080";
+	content: "\e080";
+}
+.fui-ext-calendar-settings:before {
+	content: "\e07f";
 }
 .fui-ext-copy:before {
-  content: "\e081";
+	content: "\e081";
 }
 .fui-ext-paste:before {
-  content: "\e082";
+	content: "\e082";
 }
 .fui-ext-cut:before {
-  content: "\e083";
+	content: "\e083";
 }
 .fui-ext-save:before {
-  content: "\e084";
-}
-.fui-ext-folder-question-mark:before {
-  content: "\e085";
-}
-.fui-ext-add-document:before {
-  content: "\e086";
-}
-.fui-ext-add-profile:before {
-  content: "\e087";
-}
-.fui-ext-alt-pad:before {
-  content: "\e088";
+	content: "\e084";
 }
 .fui-ext-punch-out:before {
-  content: "\e089";
+	content: "\e089";
 }
-.fui-ext-day-calendar-check:before {
-  content: "\e08a";
+.fui-ext-alt-pad:before {
+	content: "\e088";
+}
+.fui-ext-add-profile:before {
+	content: "\e087";
+}
+.fui-ext-add-document:before {
+	content: "\e086";
+}
+.fui-ext-folder-question-mark:before {
+	content: "\e085";
 }
 .fui-ext-day-calendar-cross:before {
-  content: "\e08b";
+	content: "\e08b";
 }
-.fui-ext-save-and-add:before {
-  content: "\e08c";
+.fui-ext-day-calendar-check:before {
+	content: "\e08a";
+}
+.fui-trash:before {
+	content: "\e03f";
 }
 .fui-ext-save-and-copy:before {
-  content: "\e08d";
+	content: "\e08d";
+}
+.fui-ext-save-and-add:before {
+	content: "\e08c";
 }
 .fui-ext-filter:before {
-  content: "\e08e";
+	content: "\e08e";
 }
 .fui-ext-back-time:before {
-  content: "\e08f";
+	content: "\e08f";
 }
-.fui-ext-report:before {
-  content: "\e090";
+.fui-star-2:before {
+	content: "\e04c";
 }
-.fui-ext-workspace:before {
-  content: "\e091";
+.fui-behance:before {
+	content: "\e04e";
 }
-.fui-ext-review:before {
-  content: "\e092";
+.fui-dribbble:before {
+	content: "\e04d";
 }
-.fui-ext-inbox:before {
-  content: "\e093";
-}
-.fui-ext-project:before {
-  content: "\e094";
-}
-.fui-ext-people-resources:before {
-  content: "\e095";
-}
-.fui-ext-important-links:before {
-  content: "\e096";
-}
-.fui-ext-document:before {
-  content: "\e097";
+.fui-blogger:before {
+	content: "\e054";
 }
 .fui-ext-batch:before {
-  content: "\e098";
+	content: "\e098";
 }
 .fui-ext-user:before {
-  content: "\e099";
+	content: "\e099";
+}
+.fui-ext-important-links:before {
+	content: "\e096";
+}
+.fui-ext-report:before {
+	content: "\e090";
+}
+.fui-ext-people-resources:before {
+	content: "\e095";
+}
+.fui-ext-review:before {
+	content: "\e092";
+}
+.fui-ext-inbox:before {
+	content: "\e093";
 }
 .fui-ext-group:before {
-  content: "\e09a";
+	content: "\e09a";
 }
 .fui-ext-expense-report:before {
-  content: "\e09b";
+	content: "\e09b";
 }
 .fui-ext-import-from-excel:before {
-  content: "\e09c";
-}
-.fui-ext-billing-rules:before {
-  content: "\e09d";
+	content: "\e09c";
 }
 .fui-ext-cost-rules:before {
-  content: "\e09e";
+	content: "\e09e";
 }
-.fui-ext-timesheet-template:before {
-  content: "\e09f";
+.fui-ext-billing-rules:before {
+	content: "\e09d";
 }
 .fui-ext-empty-profile:before {
-  content: "\e0a0";
+	content: "\e0a0";
+}
+.fui-ext-project:before {
+	content: "\e094";
+}
+.fui-ext-workspace:before {
+	content: "\e091";
+}
+.fui-ext-document:before {
+	content: "\e097";
+}
+.fui-ext-timesheet-template:before {
+	content: "\e09f";
 }
 .fui-ext-site:before {
-  content: "\e0a1";
+	content: "\e0a1";
 }
 .fui-ext-print:before {
-  content: "\e0a2";
+	content: "\e0a2";
+}
+.fui-back:before {
+	content: "\e055";
+}
+.fui-facebook:before {
+	content: "\e056";
+}
+.fui-file-tracking:before {
+	content: "\e057";
 }
 
 
