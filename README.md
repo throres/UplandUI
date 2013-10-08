@@ -11,3 +11,11 @@ Select FORMS authentication
 
 UN:  abarr
 PWD:  pass@word1
+
+
+==============
+
+Style Guide Located Here:
+
+http://54.215.150.60/upland/ui/styleguide/flat%20ui.htm
+
