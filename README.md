@@ -15,3 +15,7 @@ Style Guide Located Here:
 
 http://54.215.150.60/upland/ui/styleguide/flat%20ui.htm
 
+HTML page to view font icon classes
+
+http://54.215.150.60/upland/UI/Nurun/index.html
+
